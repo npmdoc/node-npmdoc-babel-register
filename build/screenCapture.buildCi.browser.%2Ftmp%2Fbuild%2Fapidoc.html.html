@@ -65,38 +65,7 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.babel-register.browser">
-            function <span class="apidocSignatureSpan">babel-register.</span>browser
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.babel-register.toString">
-            function <span class="apidocSignatureSpan">babel-register.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">babel-register.</span>cache</span>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.babel-register.browser">module babel-register.browser</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.babel-register.browser.browser">
-            function <span class="apidocSignatureSpan">babel-register.</span>browser
-            <span class="apidocSignatureSpan">()</span>
-            </a>
 
         </li>
 
@@ -139,19 +108,6 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.babel-register.toString">module babel-register.toString</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.babel-register.toString.toString">
-            function <span class="apidocSignatureSpan">babel-register.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
 </ol></div>
 
 <div class="apidocSectionDiv">
@@ -187,52 +143,6 @@
 
 
 
-    <h2>
-        <a href="#apidoc.element.babel-register.browser" id="apidoc.element.babel-register.browser">
-        function <span class="apidocSignatureSpan">babel-register.</span>browser
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">browser = function () {}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.babel-register.toString" id="apidoc.element.babel-register.toString">
-        function <span class="apidocSignatureSpan">babel-register.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.babel-register.browser" id="apidoc.module.babel-register.browser">module babel-register.browser</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.babel-register.browser.browser" id="apidoc.element.babel-register.browser.browser">
-        function <span class="apidocSignatureSpan">babel-register.</span>browser
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">browser = function () {}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
 
 </div>
 
@@ -252,7 +162,23 @@
     <li>description and source-code<pre class="apidocCodePre">function get() {
   return data;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    } else {
+      return null;
+    }
+  }
+});
+
+registerCache.load();
+var cache = registerCache.<span class="apidocCodeKeywordSpan">get</span>();
+
+var transformOpts = {};
+
+var ignore = void 0;
+var only = void 0;
+
+var oldHandlers = {};
+...</pre></li>
     </ul>
 
 
@@ -278,7 +204,22 @@
     return;
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+      };
+    } else {
+      return null;
+    }
+  }
+});
+
+registerCache.<span class="apidocCodeKeywordSpan">load</span>();
+var cache = registerCache.get();
+
+var transformOpts = {};
+
+var ignore = void 0;
+var only = void 0;
+...</pre></li>
     </ul>
 
 
@@ -308,24 +249,6 @@
   (0, _mkdirp.sync)(_path2.default.dirname(FILENAME));
   _fs2.default.writeFileSync(FILENAME, serialised);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.babel-register.toString" id="apidoc.module.babel-register.toString">module babel-register.toString</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.babel-register.toString.toString" id="apidoc.element.babel-register.toString.toString">
-        function <span class="apidocSignatureSpan">babel-register.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
