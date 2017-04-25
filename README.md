@@ -1,4 +1,7 @@
-# api documentation for  babel-register (v6.24.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-babel-register.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-babel-register) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-babel-register.svg)](https://travis-ci.org/npmdoc/node-npmdoc-babel-register)
+# npmdoc-babel-register
+
+#### basic api documentation for  babel-register (v6.24.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-babel-register.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-babel-register) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-babel-register.svg)](https://travis-ci.org/npmdoc/node-npmdoc-babel-register)
+
 #### babel require hook
 
 [![NPM](https://nodei.co/npm/babel-register.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/babel-register)
@@ -69,7 +72,8 @@
         "url": "https://github.com/babel/babel/tree/master/packages/babel-register"
     },
     "scripts": {},
-    "version": "6.24.1"
+    "version": "6.24.1",
+    "bin": {}
 }
 ```
 

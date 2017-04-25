@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "babel-register",
-    "description": "api documentation for babel-register (v6.24.1) [![npm package](https://img.shields.io/npm/v/npmdoc-babel-register.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-babel-register) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-babel-register.svg)](https://travis-ci.org/npmdoc/node-npmdoc-babel-register)",
+    "description": "#### basic api documentation for  babel-register (v6.24.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-babel-register.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-babel-register) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-babel-register.svg)](https://travis-ci.org/npmdoc/node-npmdoc-babel-register)",
     "devDependencies": {
         "babel-register": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
